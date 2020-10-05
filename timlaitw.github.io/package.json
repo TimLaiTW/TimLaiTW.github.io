@@ -2,7 +2,7 @@
   "name": "timlaitw.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TimLaiTW.github.io/",
+  "homepage": "https://timlaitw.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
