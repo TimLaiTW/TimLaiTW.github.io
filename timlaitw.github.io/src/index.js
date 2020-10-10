@@ -1,12 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import {
+  BrowserRouter as Router, Switch, Route,
+} from 'react-router-dom';
 
+import * as serviceWorker from './serviceWorker';
+import About from './views/About';
+import Contact from './views/Contact';
+import Index from './views/Index';
+import NotFound from './views/NotFound';
+import Projects from './views/Projects';
+import Resume from './views/Resume';
+import Status from './views/Status';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <Router>
+    <Switch>
+      <Route exact path="/" component={Index} />
+      <Route path="/about" component={About} />
+      <Route path="/projects" component={Projects} />
+      <Route path="/status" component={Status} />
+      <Route path="/contact" component={Contact} />
+      <Route path="/resume" component={Resume} />
+      {/* Only useful in development mode */}
+      <Route component={NotFound} status={404} />
+    </Switch>
+  </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
