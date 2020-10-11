@@ -1,9 +1,10 @@
 import React from 'react';
+import Main from '../layouts/Main';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import data from '../data/contact';
 const Contact = () => {
   return (
-    <>
+    <Main>
       <article className="post" id="contact">
         <div>
           <h2>Contact</h2>
@@ -19,7 +20,7 @@ const Contact = () => {
           ))}
         </ul>
       </article>
-    </>
+    </Main>
   )
 }
 export default Contact;

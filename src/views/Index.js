@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from '../components/Template/Header';
+import Main from '../layouts/Main';
 const Home = ({location}) => {
   return (
-    <div>
-      <Header />
+    <Main>
       <article className="post" id="home">
         <h1>About This Site</h1>
         <h2>Static HTML Page</h2>
       </article>
-    </div>
+    </Main>
   )
 }
 export default Home;

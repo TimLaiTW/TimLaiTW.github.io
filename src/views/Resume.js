@@ -1,4 +1,5 @@
 import React from 'react';
+import Main from '../layouts/Main';
 import Education from '../components/Resume/Education'
 import Experience from '../components/Resume/Experience';
 import KeySkills from '../components/Resume/KeySkills';
@@ -15,6 +16,7 @@ const sections = [
 
 const Resume = () => {
   return (
+    <Main>
     <article className="post" id="resume">
       <div><h1>Resume</h1></div>
       <div className="link-container">
@@ -28,6 +30,7 @@ const Resume = () => {
       <Experience data={exp}/>
       <KeySkills data={skl}/>
     </article>
+    </Main>
   )
 }
 export default Resume;
