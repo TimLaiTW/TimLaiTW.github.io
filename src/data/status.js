@@ -1,4 +1,4 @@
-// TODO modify countries 
+// TODO modify countries map
 const data = {
     age: {
         label: 'Current age',

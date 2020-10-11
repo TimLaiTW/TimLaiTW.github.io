@@ -1,10 +1,20 @@
 import React from 'react';
 import Main from '../layouts/Main';
+import Tasks from '../components/Projects/SideProjects';
+import data from '../data/projects';
 const Projects = () => {
   return (
     <Main>
     <article className="post" id="project">
-      <div><h1>Projects</h1></div>
+      <div className="title">
+        <h1>Projects</h1>
+      </div>
+      {data.map((project) => (
+        <Tasks 
+          data={project}
+          key={project.title} />
+      ))}
+      
     </article>
     </Main>
   )

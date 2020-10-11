@@ -3,7 +3,9 @@ import Main from '../layouts/Main';
 const About = () => {
   return (
     <Main>
-      <div><h1>About</h1></div>
+      <div className="title">
+        <h1>About</h1>
+      </div>
     </Main>
   )
 }

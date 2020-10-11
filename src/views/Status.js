@@ -4,7 +4,9 @@ const Status = () => {
   return (
     <Main>
     <article className="post" id="status">
-      <div><h1>Status</h1></div>
+      <div className="title">
+        <h1>Status</h1>
+      </div>
     </article>
     </Main>
   )

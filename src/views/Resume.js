@@ -18,7 +18,9 @@ const Resume = () => {
   return (
     <Main>
     <article className="post" id="resume">
-      <div><h1>Resume</h1></div>
+      <div className="title">
+        <h1>Resume</h1>
+      </div>
       <div className="link-container">
             {sections.map((sec) => (
               <h4 key={sec}>
