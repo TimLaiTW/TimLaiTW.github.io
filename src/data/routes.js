@@ -17,10 +17,6 @@ const data = [
         label: 'Projects',
     },
     {
-        path: '/status',
-        label: 'Status',
-    },
-    {
         path: '/contact',
         label: 'Contact',
     }

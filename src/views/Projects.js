@@ -7,7 +7,7 @@ const Projects = () => {
     <Main>
     <article className="post" id="project">
       <div className="title">
-        <h1>Projects</h1>
+        <h1>PROJECTS</h1>
       </div>
       {data.map((project) => (
         <Tasks 

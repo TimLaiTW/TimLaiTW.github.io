@@ -7,7 +7,7 @@ const Contact = () => {
     <Main>
       <article className="post" id="contact">
         <div className="title">
-          <h2>Contact</h2>
+          <h2>CONTACT</h2>
         </div>
         <p>Get in touch.</p>
         <ul className="icons" >

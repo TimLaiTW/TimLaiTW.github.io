@@ -19,7 +19,7 @@ const Resume = () => {
     <Main>
     <article className="post" id="resume">
       <div className="title">
-        <h1>Resume</h1>
+        <h1>RESUME</h1>
       </div>
       <div className="link-container">
             {sections.map((sec) => (
