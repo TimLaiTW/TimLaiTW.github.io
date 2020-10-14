@@ -7,10 +7,12 @@ const mk = '#### Still working on it'
 const About = () => {
   return (
     <Main>
-      <div className="title">
-        <h1>ABOUT ME</h1>
-        <ReactMarkdown source={mk} />
-      </div>
+      <article className="post" id="about">
+        <div className="title">
+          <h2>ABOUT ME</h2>
+        </div>
+      <ReactMarkdown source={mk} />
+      </article>
     </Main>
   )
 }

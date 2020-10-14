@@ -1,0 +1,11 @@
+@import './header.scss';
+@import './views/contact.scss';
+
+.post {
+    padding-left: 1em;
+    .title {
+        font-family: Verdana, Geneva, sans-serif;
+        font-size: large;
+        color: #2f4f4f;
+    }
+}

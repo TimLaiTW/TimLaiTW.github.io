@@ -3,7 +3,7 @@ import Exp from './Experience/Experience';
 
 const Experience = ({data}) => (
     <div className="experience">
-        <div className="title" id="experience" >
+        <div className="Resume-title" id="experience" >
         <h3>Experience</h3>
         </div>
         {data.map((job) => (

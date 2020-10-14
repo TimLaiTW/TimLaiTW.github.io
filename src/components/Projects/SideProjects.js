@@ -4,6 +4,7 @@ const SideProjects = ({data}) => (
         <div className="title" id="stocktracker">
             <h3 ><a href={data.link}>{data.title}</a></h3>
         </div>
+        <p className="date"> {data.date}</p>
         <img src={data.imgae} alt={data.title} />
         <div className="description">
             <p>{data.desc}</p>
