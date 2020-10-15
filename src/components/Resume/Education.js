@@ -3,7 +3,7 @@ import Edu from './Education/Education';
 
 const Education = ({data}) => (
     <div className="education">
-        <div className="Resume-title" id="education">
+        <div className="subtitle" id="education">
         <h3>Education</h3>
         </div>
         {data.map((school) => (

@@ -22,15 +22,16 @@ const Resume = () => {
         <h1>RESUME</h1>
       </div>
       <div className="link-container">
-            {sections.map((sec) => (
-              <h4 key={sec}>
-                <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-              </h4>))}
+        {sections.map((sec) => (
+          <h4 key={sec}>
+            <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+          </h4>))}
       </div>
-      
+      <div className="resume-section">
       <Education data={edu}/>
       <Experience data={exp}/>
       <KeySkills data={skl}/>
+      </div>
     </article>
     </Main>
   )

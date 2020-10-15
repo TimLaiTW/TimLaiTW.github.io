@@ -5,7 +5,7 @@ const data = [
         link: 'https://timlaitw.github.io',
         image: '/testing.jpg',
         date: 'On-going',
-        desc: 'Deploy a React JS App on Github user pages with multiple information pages about myself.'
+        desc: 'What you are looking at rn is what it is. Deploy a React JS App on Github user pages with multiple information pages about myself.'
     },
     {
         title: 'Stock Tracker',

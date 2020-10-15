@@ -3,7 +3,7 @@ import Skl from './KeySkills/KeySkills';
 
 const KeySkills = ({data}) => (
     <div className="keyskills">
-        <div className="Resume-title" id="skills">
+        <div className="subtitle" id="skills">
             <h3>Skills</h3>
         </div>
         {data.map((skill) => (

@@ -1,12 +1,11 @@
 
 body {
   padding-top: 3.5em;
+  
 }
 #header {
-  background-color: _palette(bg);
-  height: 0em;
-  left: 0;
-  line-height: 3.5em;
+  background-color: #E7E6DD;
+  padding: 7px;
   padding-left: 0em;
   position: fixed;
   top: 0;
@@ -19,12 +18,14 @@ body {
       margin-left: 1em;
       padding-left: 1em;
       display: inline-block;
+      color: #666666;
 
       &:first-child {
         border-left: 0;
         margin-left: 0;
         padding-left: 0;
         font-weight: bold;
+        color: #1a1a1a;
       }
 
       a {
