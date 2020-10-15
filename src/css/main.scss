@@ -1,6 +1,7 @@
 @import './header.scss';
 @import './views/contact.scss';
-
+@import './views/projects.scss';
+@import './views/resume.scss';
 .post {
     padding-left: 1em;
     .title {
@@ -8,4 +9,16 @@
         font-size: large;
         color: #2f4f4f;
     }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#home {
+    a {
+        text-decoration-line: underline;
+        text-transform: uppercase;
+      }
 }

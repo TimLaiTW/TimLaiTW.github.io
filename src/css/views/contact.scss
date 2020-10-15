@@ -1,10 +1,18 @@
-ul {
-    list-style: none;
-    li {
-        padding-left: 1em;
-        display: inline-block;
-        a {
+#contact {
+    ul {
+        list-style: none;
+        li {
+            padding-left: 1em;
+            display: inline-block;
             color: grey; 
+    
+            &:first-child {
+                border-left: 0;
+                margin-left: 0;
+                padding-left: 0;
+            }
+
         }
     }
+    
 }

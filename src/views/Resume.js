@@ -11,7 +11,7 @@ import skl from '../data/resume/keyskills';
 const sections = [
   'Education',
   'Experience',
-  'KeySkills',
+  'Skills',
 ]
 
 const Resume = () => {
