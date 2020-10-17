@@ -4,6 +4,7 @@ import Skl from './KeySkills/KeySkills';
 const KeySkills = ({data}) => (
     <div className="keyskills">
         <div className="subtitle" id="skills">
+            <br/>
             <h3>Skills</h3>
         </div>
         {data.map((skill) => (

@@ -5,7 +5,7 @@ const SideProjects = ({data}) => (
             <h3 ><a href={data.link}>{data.title}</a></h3>
         </div>
         <p className="date"> {data.date}</p>
-        <img src={data.imgae} alt={data.title} />
+        <img src={data.image} alt={data.title} width="600" height="400"/>
         <div className="description">
             <p>{data.desc}</p>
         </div>

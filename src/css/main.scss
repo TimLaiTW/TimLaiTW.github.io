@@ -1,7 +1,9 @@
-@import './header.scss';
+@import './components/header.scss';
+@import './components/sidebar.scss';
 @import './views/contact.scss';
 @import './views/projects.scss';
 @import './views/resume.scss';
+@import './components/footer.scss';
 
 #home {
     a {
@@ -11,27 +13,40 @@
 }
 
 .post {
-    padding-left: 1.5em;
-    font-size: medium;
+    background-color: white;
+    margin-left: 320px;
+    margin-right: 80px;
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: smaller;
     font-family: 'Times New Roman', Times, serif;
+    border:1px solid #f2f2f2;
 
-    .title {
+    .title {    
         font-family: Verdana, Geneva, sans-serif;
-        font-size: larger;
-        color: #2f4f4f;
+        font-size: small;
+        color: #1a1a1a;
         text-transform: uppercase;
+        border-bottom:1px solid #b3b3b3;
+        width: 80%;
+        padding-bottom: 8px;
+        h5 {
+            display: inline-flex;
+        }
     }
 
     .subtitle {
-        color: #556B2F;
+        color: #333333;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
+        font-size: medium;
         text-transform: uppercase;
     }
 }
 
 body {
-    padding-top: 3.5em;
+    background-color: #f2f2f2;
 }
 
 a {
@@ -43,4 +58,5 @@ a {
     font-family: Courier, monospace;
     font-size: 0.8em;
 }
+
 

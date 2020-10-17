@@ -19,13 +19,13 @@ const Resume = () => {
     <Main>
     <article className="post" id="resume">
       <div className="title">
-        <h1>RESUME</h1>
-      </div>
-      <div className="link-container">
-        {sections.map((sec) => (
-          <h4 key={sec}>
-            <a href={`#${sec.toLowerCase()}`}>{sec}</a>
-          </h4>))}
+        <h1>RESUME</h1>  
+        <div className="link-container">
+          {sections.map((sec) => (
+            <h5 key={sec}>
+              <a href={`#${sec.toLowerCase()}`}>{sec}</a>
+            </h5>))}
+        </div>
       </div>
       <div className="resume-section">
       <Education data={edu}/>

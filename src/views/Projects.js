@@ -8,6 +8,7 @@ const Projects = () => {
     <article className="post" id="project">
       <div className="title">
         <h1>PROJECTS</h1>
+        <h5>Just for fun</h5>
       </div>
       {data.map((project) => (
         <Tasks 
