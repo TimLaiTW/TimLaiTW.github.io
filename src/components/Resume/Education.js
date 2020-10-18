@@ -4,7 +4,6 @@ import Edu from './Education/Education';
 const Education = ({data}) => (
     <div className="education">
         <div className="subtitle" id="education">
-            <br/><br/>
             <h3>Education</h3>
         </div>
         {data.map((school) => (
