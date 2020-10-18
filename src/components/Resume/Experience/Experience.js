@@ -6,7 +6,7 @@ const Experience = ({data}) => (
         <div className="description">
             {data.points.map((des) => 
                 <ul>
-                    <li>{des}</li>
+                    <li className="description-item">{des}</li>
                 </ul>)}
         </div>
     </article>    

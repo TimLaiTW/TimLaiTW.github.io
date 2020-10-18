@@ -1,11 +1,18 @@
 #resume {
 	.subtitle {
 		padding-top: 36px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 25%;
 	}
 
 	.link-container h5 {
 		a {
 			padding-right: 1em;
 		}
+	}
+
+	.school a{
+		text-decoration-line: underline;
 	}
 }
