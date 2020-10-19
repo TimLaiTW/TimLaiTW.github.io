@@ -5,7 +5,7 @@
 @import './views/resume.scss';
 @import './components/footer.scss';
 
-@media (max-width: 768px){
+@media (max-width: 960px){
     #sidebar {
         display: none;
     }
@@ -14,7 +14,7 @@
         margin-right: 4%;
     }
 
-    @media (max-width: 680px) {
+    @media (max-width: 700px) {
         .post {
             margin-left: 0;
             margin-right: 0;
@@ -22,7 +22,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
     .post {
         margin-left: 320px;
         margin-right: 8%;
@@ -31,14 +31,15 @@
 
 #home {
     a {
-        text-decoration-line: underline;
+        border-bottom: 1px dotted #000;
+        text-decoration: none;
         text-transform: uppercase;
       }
 }
 
 .post {
     background-color: white;
-    margin-top: 12%;
+    margin-top: 120px;
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 4%;
