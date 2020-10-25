@@ -12,7 +12,7 @@ const SideBar = () => (
         </div>
         <div className="bio">
             <h4>About</h4>
-            <p>Hi, I'm TaiLin Lai</p>
+            <p>Hi, I'm TaiLin Lai. I like to explore new things. I am a UMB CS graduate and FJU alumni. Before working at Mustard Seed Capital llc, I was at UMB, Compal and D-Link.</p>
         </div>
         <Footer />
     </sidebar>

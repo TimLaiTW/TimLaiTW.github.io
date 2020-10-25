@@ -1,7 +1,7 @@
 // TODO Add a couple lins about each position
 const positions = [
     {
-        company: 'Mastard Seed Capital LLC',
+        company: 'Mustard Seed Capital LLC',
         location: 'Boston, MA',
         position: 'Website Engineer',
         link: '',
