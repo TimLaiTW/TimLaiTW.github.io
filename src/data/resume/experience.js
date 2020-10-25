@@ -29,7 +29,8 @@ const positions = [
         link: 'https://www.umb.edu',
         daterange: 'May 2019 - August 2019',
         points: [
-        ''
+            'Broke down complex problems to individual learning levels.',
+            'Analyzed student comprehension and prepared goals.'
         ],
     },
     {
