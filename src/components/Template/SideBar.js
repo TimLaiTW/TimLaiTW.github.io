@@ -4,7 +4,7 @@ import Footer from './Footer';
 const SideBar = () => (
     <sidebar id="sidebar">
         <Link to="/">
-            <img className="logo" src='/profile.jpg' alt='profile' width="150" height="150"/>
+            <img className="logo" src='/img/profile.jpg' alt='profile' width="150" height="150"/>
         </Link>
         <div className="sidebarTitle">
             <h2>TAI-LIN LAI</h2>

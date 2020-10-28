@@ -9,7 +9,7 @@ import {
 } from 'react-router-dom';
 
 import * as serviceWorker from './serviceWorker';
-import Album from './views/Album';
+import Gallery from './views/Gallery';
 import Contact from './views/Contact';
 import Index from './views/Index';
 import NotFound from './views/NotFound';
@@ -20,7 +20,7 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route exact path="/" component={Index} />
-      <Route path="/album" component={Album} />
+      <Route path="/gallery" component={Gallery} />
       <Route path="/projects" component={Projects} />
       <Route path="/contact" component={Contact} />
       <Route path="/resume" component={Resume} />
