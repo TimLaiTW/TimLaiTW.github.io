@@ -1,9 +1,9 @@
 import React from 'react';
 const Education = ({data}) => (
-    <article className="education-container">
-        <h4 className="degree">{data.degree}</h4>
-        <p className="school"><a href={data.link}>{data.school}</a></p>
-        <p className="date">{data.year}</p>
+    <article className="container">
+        <h3 className="school"><a href={data.link}>{data.school}</a></h3>
+        <h4 className="degree">{data.degree}, earned <span className="date">{data.year}</span></h4>
+        <p className="location">{data.location}</p>
     </article>    
 );
 

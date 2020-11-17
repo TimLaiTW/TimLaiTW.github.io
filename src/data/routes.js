@@ -15,7 +15,7 @@ const data = [
     {
         path: '/gallery',
         label: 'Gallery',
-    },
+    },    
     {
         path: '/contact',
         label: 'Contact',

@@ -1,6 +1,6 @@
 import React from 'react';
 const Experience = ({data}) => (
-    <article className="experience-container">
+    <article className="container">
         <h4 className="company">{data.position} | <a href={data.link}>{data.company}, {data.location}</a></h4>
         <p className="date">{data.daterange}</p>
         <div className="description">

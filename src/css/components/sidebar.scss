@@ -18,29 +18,25 @@
     }
 
     .sidebarTitle {
-        padding-bottom: 20px;
         border-bottom:1px solid #b3b3b3;
-        h2, p{
+        h3{
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: Verdana, Geneva, sans-serif;
         }
-
-        a {
-            border-bottom: 1px dotted #000;
-            text-decoration: none;
-          }
     }
 
     .bio {
-        h4 {
+        .bio-title {
             font-family: Verdana, Geneva, sans-serif;
+            font-size: small;
             text-transform: uppercase;
         }
-        p {
+        .bio-content {
             font-family: 'Times New Roman', Times, serif;
             font-size: small;
+            color: #696969;
         }
     }
     

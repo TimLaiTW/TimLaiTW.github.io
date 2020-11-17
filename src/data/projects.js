@@ -1,6 +1,6 @@
 const data = [
     {
-        title: 'My Website',
+        title: 'Personal Website',
         subtitle: 'PersonalWebsite',
         link: 'https://timlaitw.github.io',
         image: '/img/testing.jpg',

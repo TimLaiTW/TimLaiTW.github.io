@@ -1,47 +1,50 @@
 const skills = [
     {
-        title: 'Javascript',
-        competency: 4,
-        category: ['Web Development', 'Languages', 'Javascript'],
-    },
-    {
-        title: 'Node.JS',
-        competency: 3,
-        category: ['Web Development', 'Javascript'],
-    },
-    {
-        title: 'React',
-        competency: 3,
-        category: ['Web Development', 'Javascript'],
-    },
-    {
-        title: 'MySQL',
-        competency: 4,
-        category: ['Web Development', 'Databases', 'Languages'],
-    },
-    {
-        title: 'Git',
-        competency: 3,
-        category: ['Tools'],
-    },
-    {
-        title: 'HTML + SASS/SCSS/CSS',
-        competency: 3,
-        category: ['Web Development', 'Languages'],
+        title: 'Java',
+        competency: 80,
+        color: '#00695c',
+        category: ['Web Development', 'Languages', 'Java'],
     },
     {
         title: 'Python',
-        competency: 4,
+        competency: 80,
+        color: '#00695c',
         category: ['Languages', 'Python'],
     },
     {
+        title: 'Javascript',
+        competency: 80,
+        color: '#00695c',
+        category: ['Web Development', 'Languages', 'Javascript'],
+    },
+    {
+        title: 'HTML/CSS',
+        competency: 70,
+        color: '#00695c',
+        category: ['Web Development', 'Languages'],
+    },
+    {
+        title: 'MySQL',
+        competency: 70,
+        color: '#00695c',
+        category: ['Web Development', 'Databases', 'Languages'],
+    },
+    {
+        title: 'React',
+        competency: 70,
+        color: '#00695c',
+        category: ['Web Development', 'Javascript'],
+    },
+    {
         title: 'C',
-        competency: 2,
+        competency: 50,
+        color: '#00695c',
         category: ['Languages'],
     },
     {
         title: 'R',
-        competency: 2,
+        competency: 50,
+        color: '#00695c',
         category: ['Languages'],
     },
 ]
