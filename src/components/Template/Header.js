@@ -1,24 +1,49 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
-import routes from '../../data/routes';
 
-const Header = () => (
-    <header id="header">
-      <p className="index-links">
-        {routes.filter((l) => l.index).map((l) => (
-          <Link key={l.label} to={l.path}>{l.label}</Link>
-        ))}
-      </p>  
-      <nav className="links">
-        <ul>
-          {routes.filter((l) => !l.index).map((l) => (
-            <li key={l.label}>
-              <Link to={l.path}>{l.label}</Link>
-            </li>
-          ))}
+function Header() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+  return (
+    <>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              T.LAI
+              <i class="fas fa-dice-d6" />
+          </Link>
+      <div className='menu-icon' onClick={handleClick}>
+          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+        </div>
+        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+            <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
+              Resume
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+              Projects
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/gallery' className='nav-links' onClick={closeMobileMenu}>
+              Gallery
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+              Contact
+            </Link>
+          </li>
         </ul>
+        </div>
       </nav>
-    </header>
+    </>
   );
+}
 
   export default Header;

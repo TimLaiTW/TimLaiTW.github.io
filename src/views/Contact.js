@@ -1,21 +1,18 @@
 import React from 'react';
 import Main from '../layouts/Main';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import data from '../data/contact';
 const Contact = () => {
   return (
     <Main>
+      <h1 className='contacts'>CONTACT</h1>
       <article className="post" id="contact">
-        <div className="title">
-          <h2>CONTACT</h2>
-          <h5><a href='mailto:timlai1208@gmail.com'>Email me!</a></h5>
-        </div>
+        <h3><a href='mailto:timlai1208@gmail.com'>Email me!</a></h3>
         <p>Feel free to get in touch.</p>
         <ul className="icons" >
           {data.map((item) => (
           <li key={item.label}>
               <a href={item.link}>
-              <FontAwesomeIcon icon={item.icon} size="lg"/>
+              <i class={item.icon} />
               </a>
           </li>
           ))}

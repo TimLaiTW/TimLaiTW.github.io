@@ -17,9 +17,9 @@ const sections = [
 const Resume = () => {
   return (
     <Main>
+    <h1 className="resume">About Me!</h1>
     <article className="post" id="resume">
-      <div className="title">
-        <h1>RESUME</h1>  
+      <div className="subtitle">
         <div className="link-container">
           {sections.map((sec) => (
             <h5 key={sec}>

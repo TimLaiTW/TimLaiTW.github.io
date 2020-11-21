@@ -1,13 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import data from '../../data/contact';
 const Footer = () => (
-    <footer id="footer">
+    <footer className="footer" id='footer'>
         <ul className="icons" >
         {data.map((item) => (
         <li key={item.label}>
             <a href={item.link}>
-            <FontAwesomeIcon icon={item.icon} />
+            <i class={item.icon} />
             </a>
         </li>
         ))}

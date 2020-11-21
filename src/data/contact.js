@@ -7,27 +7,27 @@ const data = [
     {
         link: 'https://github.com/timlaitw',
         label: 'Github',
-        icon: faGithub,
+        icon: 'fab fa-github',
     },
     {
         link: 'https://www.linkedin.com/in/tailin-lai/',
         label: 'Linkedin',
-        icon: faLinkedinIn,
+        icon: 'fab fa-linkedin',
     },
     {
         link: 'https://www.facebook.com/tailin08/',
         label: 'FaceBook',
-        icon: faFacebookF,
+        icon: 'fab fa-facebook-f',
     },
     {
         link: 'https://www.instagram.com/tailinlai/',
         label: 'Instagram',
-        icon: faInstagram,
+        icon: 'fab fa-instagram',
     },
     {
         link: 'mailto:timlai1208@gmail.com',
         label: 'Email',
-        icon: faEnvelope,
+        icon: 'fas fa-envelope',
     }
 ]
 

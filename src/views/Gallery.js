@@ -15,27 +15,25 @@ const sections = [
 const Gallery = () => {
   return (
     <Main>
+    <h1 className='gallery'>Photo Album</h1>  
     <article className="post" id="gallery">
-      <div className="title">
-        <h1>Photo Album</h1>
-        <div className="link-container">
-          {sections.map((sec) => (
-            <h5 key={sec}>
-              <a href={`#${sec}`}>{sec}</a>
-            </h5>))}
-        </div>
+      <div className="link-container">
+        {sections.map((sec) => (
+          <h5 key={sec}>
+            <a href={`#${sec}`}>{sec}</a>
+          </h5>))}
       </div>
-      <h5 className="subtitle" id="Fuji Simple Ace">Fuji Simple Ace 200</h5> 
+      <h5 className="section" id="Fuji Simple Ace">Fuji Simple Ace 200</h5> 
         {FujiSimpleAce.map((pic) => (
           <Photo data={pic} />
         ))}
         
-      <h5 className="subtitle" id="Fuji Color">Fuji Color 200</h5> 
+      <h5 className="section" id="Fuji Color">Fuji Color 200</h5> 
         {FujiColor.map((pic) => (
           <Photo data={pic} />
         ))}
       
-      <h5 className="subtitle" id="Kodak Gold">Kodak Gold 200</h5> 
+      <h5 className="section" id="Kodak Gold">Kodak Gold 200</h5> 
         {KodakGold.map((pic) => (
           <Photo data={pic} />
         ))}

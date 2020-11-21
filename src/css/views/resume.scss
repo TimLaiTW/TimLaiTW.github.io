@@ -1,17 +1,15 @@
 #resume {
-	.subtitle {
-		padding-top: 36px;
-		margin-left: auto;
-		margin-right: auto;
-		width: 25%;
-	}
-
 	.school a{
 		border-bottom: 1px dotted #000;
-            text-decoration: none;
+		text-decoration: none;
 	}
-
+	.section {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: larger;
+		width: 25%;
+	}
 	.container {
-		padding-bottom: 2px;
+		padding-bottom: 10px;
 	}
 }
