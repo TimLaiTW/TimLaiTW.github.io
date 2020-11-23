@@ -1,9 +1,9 @@
 @import './components/header.scss';
 @import './components/sidebar.scss';
+@import './components/footer.scss';
 @import './views/contact.scss';
 @import './views/projects.scss';
 @import './views/resume.scss';
-@import './components/footer.scss';
 @import './views/gallery.scss';
 
 .post {
@@ -23,8 +23,7 @@
     color: #1a1a1a;
     text-transform: uppercase;
     border-bottom:1px solid #b3b3b3;
-    padding-bottom: 8px;
-    margin-bottom: 36px;
+    margin-bottom: 1em;
   }
 
   .link-container {

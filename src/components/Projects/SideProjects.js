@@ -1,10 +1,10 @@
 import React from 'react';
 const SideProjects = ({data}) => (
-    <article className="project-container">
-        <div className="project-title" id="project-title">
-            <h3 ><a href={data.link}>{data.title}</a></h3>
+    <article className="prj-container">
+        <div className="prj-title" id="prj-title">
+            <a href={data.link}><div className="prj-icon"><i class={data.icon}/></div>{data.title}</a>
         </div>
-        <p className="date"> {data.date}</p>
+        <div className="date"> {data.date}</div>
         <div className="description">
             <p>{data.desc}</p>
         </div>
