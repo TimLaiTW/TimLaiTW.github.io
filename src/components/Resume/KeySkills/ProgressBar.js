@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ProgressBar = (props) => {
-    const { bgcolor, completed, title } = props;
+    const { bgcolor, completed } = props;
   
     const containerStyles = {
       height: 5,
@@ -19,16 +19,9 @@ const ProgressBar = (props) => {
       textAlign: 'right'
     }
   
-    const labelStyles = {
-      padding: 5,
-      color: 'white',
-      fontWeight: 'bold'
-    }
-  
     return (
       <div style={containerStyles}>
         <div style={fillerStyles}>
-          {/* <span style={labelStyles}>{`${title}`}</span> */}
         </div>
       </div>
     );
