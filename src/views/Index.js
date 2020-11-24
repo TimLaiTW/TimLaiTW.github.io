@@ -9,10 +9,21 @@ const Home = ({location}) => {
       <div className="subtitle">
         <h5>Hi there! welcome to my portfolio.</h5>
       </div>
-        <p>This is a responsive, REACT Web app written with JavaScript.<br/>
-          Please feel free to read more on <Link to='/resume' className="home-link">my resume</Link>, 
-          or check out <Link to='/projects' className="home-link">my projects</Link>, {" "}
-          <Link to='/album' className="home-link">photo album</Link>, or <Link to='/contact' className="home-link">contact me</Link></p>
+      <p></p>
+      <Link to="/">
+        <img className="profile-pic" src='/img/profile.jpg' alt='profile' width="150" height="150"/>
+      </Link>
+      <div className="bio">
+        <h3><a href="mailto:timlai1208@gmail.com">Hi, I'm TAI-LIN LAI</a></h3>
+        <p className="bio-content">After working at <a href='https://www.compal.com'>Compal Electronics Inc.</a> for a period, 
+        I start my new life in Boston as a Computer Science graduate student at <a href='https://www.umb.edu'>UMass Boston</a> since 2017. 
+        Having some hands-on experience in website development, contributed in Programming Language: JAVA, JavaScript and Python.
+        Being a super outdoor person enjoying in snowboarding, camping, hiking, paddliing and surfing here in Massachusetts, New Hamshire or Vermont.<br/><br/>
+        <b>About this website</b>: This is a responsive, REACT Web app written with JavaScript.<br/>
+        Please feel free to read more on <Link to='/resume' className="home-link">my resume</Link>, 
+        or check out <Link to='/projects' className="home-link">my projects</Link>, {" "}
+        <Link to='/album' className="home-link">photo album</Link>, or <Link to='/contact' className="home-link">contact me</Link></p>
+      </div>
       </article>
     </Main>
   )
