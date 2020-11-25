@@ -19,7 +19,7 @@ const Home = ({location}) => {
         I start my new life in Boston as a Computer Science graduate student at <a href='https://www.umb.edu'>UMass Boston</a> since 2017. 
         Having some hands-on experience in website development, contributed in Programming Language: JAVA, JavaScript and Python.
         Being a super outdoor person enjoying in snowboarding, camping, hiking, paddliing and surfing here in Massachusetts, New Hamshire or Vermont.<br/><br/>
-        <b>About this website</b>: This is a responsive, REACT Web app written with JavaScript to perform how am I, what I am interested in and what I had done so far.<br/>
+        <b>About this website</b>: This is a responsive, REACT Web app written with JavaScript to perform who I am, what I am interested in and what I had done so far.<br/>
         Please feel free to read more on <Link to='/resume' className="home-link">my resume</Link>, 
         or check out <Link to='/projects' className="home-link">my projects</Link>, {" "}
         <Link to='/album' className="home-link">photo album</Link>, or <Link to='/contact' className="home-link">contact me</Link>.</p>
