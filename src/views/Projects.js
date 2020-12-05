@@ -8,7 +8,7 @@ const Projects = () => {
     <h1 className="projects">Projects!</h1>
     <article className="post" id="project">
       <div className="subtitle">
-        <h5>Just for fun</h5>
+        <h5>...</h5>
       </div>
       
       {data.map((project) => (

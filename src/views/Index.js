@@ -11,7 +11,7 @@ const Home = ({location}) => {
       </div>
       <br/>
       <Link to="/">
-        <img className="profile-pic" src='/img/profile.png' alt='profile' width="150" height="150"/>
+        <img className="profile-pic" src='/img/profile.png' alt='profile' width="40%" height="60%"/>
       </Link>
       <div className="bio">
         <h3><a href="mailto:timlai1208@gmail.com">Hi, I'm TAI-LIN LAI</a></h3>
